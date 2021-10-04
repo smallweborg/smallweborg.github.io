@@ -1,0 +1,51 @@
+baseURL                 = "https://thesmallweb.org/"
+languageCode            = "en-us"
+defaultContentLanguage  = "en"
+title                   = "The Small Web"
+pygmentsStyle           = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences      = true
+sectionPagesMenu        = "main"
+summaryLength           = 25
+
+[params]
+favicon                 = "/favicon.ico"
+# logo                    = "/tsm600.png"
+
+[mediaTypes]
+    [mediaTypes."application/atom+xml"]
+    suffixes            = ["xml"]
+
+[outputFormats]
+    [outputFormats.Atom]
+        name            = "Atom"
+        mediaType       = "application/atom+xml"
+        # generated file: <baseName>.<mediaType."application/atom+xml".suffixes[0]> = atom.xml
+        baseName        = "atom"
+        isPlainText     = false
+        rel             = "alternate"
+        isHTML          = false
+        permalinkable   = false
+    [outputFormats.Json]
+        name            = "Json"
+        mediaType       = "application/json"
+        # generated file: <baseName>.<mediaType."application/feed+json".suffixes[0]> = feed.json
+        baseName        = "feed"
+        isPlainText     = false
+        rel             = "alternate"
+        isHTML          = false
+        permalinkable   = false
+
+[outputs]
+    section = ["HTML", "RSS", "ATOM", "JSON"]
+    taxonomy = ["HTML", "RSS", "ATOM", "JSON"]
+    term = ["HTML", "RSS", "ATOM", "JSON"]
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark.renderer]
+        unsafe = true
+
+[module]
+    [[module.imports]]
+        path = "github.com/victoriadrake/hugo-theme-memex"
+        disable = false
