@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: draft # Branch to update (optional; defaults to master)
+# These lines should *not* be indented
+media_folder: "content/links" # Media files will be stored in the repo here
+public_folder: "/links" # The src attribute for uploaded media
+collections:
+  - name: "links" # Used in routes, e.g., /admin/collections/links
+    label: "Link" # Used in the UI
+    folder: "content/links" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "links"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "URI", name: "uri", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string", default: "links"}
+      - {label: "Body", name: "body", widget: "text"}
