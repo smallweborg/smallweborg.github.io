@@ -9,7 +9,6 @@ summaryLength           = 25
 
 [params]
 favicon                 = "/favicon.ico"
-# logo                    = "/tsm600.png"
 
 [mediaTypes]
     [mediaTypes."application/atom+xml"]

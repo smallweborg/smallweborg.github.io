@@ -10,7 +10,7 @@ It's full of wonderful discoveries, beautiful words, and genius inventions, and 
 
 This site offers a community-curated list of small web discoveries. See: [blogroll](https://indieweb.org/blogroll), [webring](https://encyclopedia.marginalia.nu/wiki/Webring).
 
-Here, you'll find [alternative front ends for big websites](https://thesmallweb.org/tags/alternatives/), [great blogs](https://thesmallweb.org/tags/blogs/), a [compendium of curiosities](https://thesmallweb.org/tags/links/), and even [tutorials](https://thesmallweb.org/tags/tutorials/) to help you make something of all that inspiration! You are most welcome to contribute discoveries of your own.
+Here, you'll find [alternative front ends for big websites](https://thesmallweb.org/tags/alternatives/), [great blogs](https://thesmallweb.org/tags/blogs/), a [compendium of curiosities](https://thesmallweb.org/tags/links/), and even [tutorials](https://thesmallweb.org/tags/tutorials/) to help you make something of all that inspiration! You are most welcome to [contribute](https://github.com/smallweborg/smallweborg.github.io) discoveries of your own.
 
 ```
   []___

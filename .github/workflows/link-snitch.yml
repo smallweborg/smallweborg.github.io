@@ -6,7 +6,7 @@ on:
     types: [completed]
 
 env:
-  URL: https://victoria.dev
+  URL: https://thesmallweb.org
   CONFIG: hydra-config.json
 
 jobs:
